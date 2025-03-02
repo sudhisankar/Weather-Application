@@ -13,6 +13,7 @@ const [weather,setWeather]=useState('');
             setWeather(data);
             setQuery('');
 
+
         }
     }
   
@@ -47,5 +48,9 @@ const [weather,setWeather]=useState('');
         </div>
     )
 }
-
+{/* 
+ $env:NODE_OPTIONS="--openssl-legacy-provider"
+npm start
+Run if any issue occur
+*/}
 export default App
